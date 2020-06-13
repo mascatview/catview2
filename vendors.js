@@ -51,6 +51,12 @@ const vendors = [
     new Vendor('Oriflame', () => {
         return 'https://i.webori.ru/20' + year + '/' + getCatalogNumberId() + '/s/' + currentPage + '.jpg';
     }),
+    new Vendor('Oriflame #2', () => {
+        return 'https://i.webori.ru/20' + year + '/' + getCatalogNumberId() + '/' + currentPage + '.jpg';
+    }),
+    new Vendor('Oriflame #3', () => {
+        return 'https://i.webori.ru/20' + year + '/' + getCatalogNumberId() + '/_s_/' + currentPage + '.jpg';
+    }),
     new Vendor('Faberlic', () => {
         return 'https://kabinet-faberlic.com/flipbook/catalog-faberlic-' + catalogNumber + '-20' + year + '-russia/files/mobile/' + currentPage + '.jpg';
     })
