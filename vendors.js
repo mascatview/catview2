@@ -1,3 +1,4 @@
+const vendors_version = '1.0 от 13/06/20';
 const vendors = [
     new Vendor('Avon', () => {
         return 'http://promoavon.ru/cats/cat' + getCatalogNumberId() + '' + year + '/medium/' + currentPage + '.jpg';
