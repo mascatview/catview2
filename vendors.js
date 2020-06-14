@@ -63,6 +63,12 @@ const vendors = [
     new Vendor('Cosmopolitan', () => {
         return 'https://smotret-listat.ru/images/Cosm-ru-' + catalogNumber + '-20' + year + '/cosmopolitan-' + catalogNumber + '-20' + year + '-' + getCurrentPageId() + '.jpg';
     }),
+    new Vendor('Cosmopolitan (5/2020)', () => {
+        return 'https://smotret-listat.ru/images/Cosm-ru-' + catalogNumber + '-20' + year + '/kosmopolitan-' + catalogNumber + '-20' + year + '-ru-' + getCurrentPageId() + '.jpg';
+    }),
+    new Vendor('Cosmopolitan (1/2020)', () => {
+        return 'https://smotret-listat.ru/images/Cosm-ru-' + catalogNumber + '-20' + year + '/Cosmopolitan-' + 'yanvar' + '-ru-' + catalogNumber + '-20' + year + '-' + getCurrentPageId() + '.jpg';
+    }),
     new Vendor('Караван', () => {
         return 'https://catalog-n.com/images/karavan/' + catalogNumber + '/karavan-istorij-' + catalogNumber + '-' + getCurrentPageId() + '.jpg';
     })
