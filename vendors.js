@@ -1,4 +1,4 @@
-const vendors_version = '1.0 от 13/06/20';
+const vendors_version = 'от 14/06/20';
 const vendors = [
     new Vendor('Avon', () => {
         return 'http://promoavon.ru/cats/cat' + getCatalogNumberId() + '' + year + '/medium/' + currentPage + '.jpg';
@@ -59,6 +59,12 @@ const vendors = [
     }),
     new Vendor('Faberlic', () => {
         return 'https://kabinet-faberlic.com/flipbook/catalog-faberlic-' + catalogNumber + '-20' + year + '-russia/files/mobile/' + currentPage + '.jpg';
+    }),
+    new Vendor('Cosmopolitan', () => {
+        return 'https://smotret-listat.ru/images/Cosm-ru-' + catalogNumber + '-20' + year + '/cosmopolitan-' + catalogNumber + '-20' + year + '-' + getCurrentPageId() + '.jpg';
+    }),
+    new Vendor('Караван', () => {
+        return 'https://catalog-n.com/images/karavan/' + catalogNumber + '/karavan-istorij-' + catalogNumber + '-' + getCurrentPageId() + '.jpg';
     })
 ];
 
